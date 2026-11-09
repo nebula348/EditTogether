@@ -9,6 +9,9 @@
     "developer": "nebula348",
     "description": "Edit a level together in real time, on the same Wi-Fi or over the internet.",
     "tags": ["editor", "online"],
+    "links": {
+        "source": "https://github.com/nebula348/EditTogether"
+    },
     "settings": {
         "default-room-name": {
             "type": "string",
