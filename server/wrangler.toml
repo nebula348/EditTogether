@@ -1,0 +1,10 @@
+name = "edittogether-relay"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+workers_dev = true
+preview_urls = false
+
+[vars]
+# Public values. The secret is stored with: npx wrangler secret put APINATOR_SECRET
+APINATOR_KEY = "app_9c5e5d7cf0fa5c84fd5b88e7225d27d344003ea9"
+APINATOR_CLUSTER = "us"

@@ -1,0 +1,2 @@
+# Local `npx wrangler dev` only. Copy to .dev.vars (git-ignored).
+APINATOR_SECRET=your-app-secret

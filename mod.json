@@ -1,0 +1,48 @@
+{
+    "geode": "5.11.2",
+    "gd": {
+        "android": "2.2081"
+    },
+    "id": "edittogether",
+    "name": "EditTogether",
+    "version": "v0.6.0",
+    "developer": "nebula348",
+    "description": "Edit a level together in real time, on the same Wi-Fi or over the internet.",
+    "tags": ["editor", "online"],
+    "settings": {
+        "default-room-name": {
+            "type": "string",
+            "name": "Default Room Name",
+            "description": "Name used when you create a room. Your name in rooms is your Geometry Dash username.",
+            "default": "My Room",
+            "match": "^[A-Za-z0-9 _.'!-]{1,32}$"
+        },
+        "max-participants": {
+            "type": "int",
+            "name": "Max Participants",
+            "description": "Maximum players in rooms you host, including you. The limit is 100.",
+            "default": 4,
+            "min": 2,
+            "max": 100
+        },
+        "relay-url": {
+            "type": "string",
+            "name": "Online Relay URL",
+            "description": "Address of the relay service used for online rooms. Only change it if you host your own (see the server folder).",
+            "default": "https://edittogether-relay.editogether.workers.dev",
+            "match": "^https?://[A-Za-z0-9.:/_-]+$"
+        },
+        "auto-discovery": {
+            "type": "bool",
+            "name": "Automatic Room Discovery",
+            "description": "Refresh the room list automatically while Find Rooms is open.",
+            "default": true
+        },
+        "debug-logging": {
+            "type": "bool",
+            "name": "Debug Logging",
+            "description": "Write detailed network logs to the Geode log.",
+            "default": false
+        }
+    }
+}

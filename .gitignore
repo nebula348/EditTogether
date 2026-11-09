@@ -1,0 +1,14 @@
+# build output
+build-*/
+*.geode
+# local-only
+globed2-main/
+.dev.vars
+node_modules/
+.wrangler/
+# editors / OS
+.vs/
+.idea/
+.vscode/
+Thumbs.db
+.env
